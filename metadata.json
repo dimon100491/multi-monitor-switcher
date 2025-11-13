@@ -1,0 +1,9 @@
+{
+  "name": "Multi Monitor Switcher",
+  "description": "Quickly switch between monitor configurations from the quick access menu.",
+  "uuid": "multi-monitor-switcher@dimon100491",
+  "shell-version": ["48"],
+  "url": "https://github.com/dimon100491/multi-monitor-switcher",
+  "settings-schema": "org.gnome.shell.extensions.multi-monitor-switcher",
+  "version": 1
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.multi-monitor-switcher" path="/org/gnome/shell/extensions/multi-monitor-switcher/">
+    <!-- Имена мониторов -->
+    <key name="primary-monitor" type="s">
+      <default>""</default>
+      <summary>Primary monitor connector name</summary>
+      <description>Name of the primary monitor (e.g., DP-3)</description>
+    </key>
+    <key name="secondary-monitor" type="s">
+      <default>""</default>
+      <summary>Secondary monitor connector name</summary>
+      <description>Name of the secondary monitor (e.g., HDMI-3)</description>
+    </key>
+    
+    <!-- Масштабирование мониторов -->
+    <key name="primary-monitor-scale" type="s">
+      <default>"1"</default>
+      <summary>Primary monitor scale</summary>
+      <description>Scale of the primary monitor (e.g., 1)</description>
+    </key>
+    <key name="secondary-monitor-scale" type="s">
+      <default>"1"</default>
+      <summary>Secondary monitor scale</summary>
+      <description>Scale of the secondary monitor (e.g., 1)</description>
+    </key>
+
+    <!-- Отображаемые названия -->
+    <key name="primary-display-name" type="s">
+      <default>""</default>
+      <summary>Display name for primary monitor</summary>
+      <description>Name shown in the menu for the primary monitor</description>
+    </key>
+    <key name="secondary-display-name" type="s">
+      <default>""</default>
+      <summary>Display name for secondary monitor</summary>
+      <description>Name shown in the menu for the secondary monitor</description>
+    </key>
+
+    <!-- Режимы -->
+    <key name="primary-mode" type="s">
+      <default>""</default>
+      <summary>Primary monitor mode</summary>
+      <description>Resolution and refresh rate for primary monitor</description>
+    </key>
+    <key name="secondary-mode" type="s">
+      <default>""</default>
+      <summary>Secondary monitor mode</summary>
+      <description>Resolution and refresh rate for secondary monitor</description>
+    </key>
+    <key name="mirror-mode" type="s">
+      <default>""</default>
+      <summary>Mirror mode</summary>
+      <description>Resolution and refresh rate used for mirror mode</description>
+    </key>
+
+    <!-- Включить/выключить режимы -->
+    <key name="enable-dual-extend-mon" type="b">
+      <default>true</default>
+      <summary>Enable 'Both: Primary Monitor' mode</summary>
+    </key>
+    <key name="enable-dual-extend-tv" type="b">
+      <default>true</default>
+      <summary>Enable 'Both: Secondary Monitor' mode</summary>
+    </key>
+    <key name="enable-dual-mirror" type="b">
+      <default>true</default>
+      <summary>Enable Mirror mode</summary>
+    </key>
+
+    <!-- Последний режим -->
+    <key name="last-mode" type="s">
+      <default>"primaryOnly"</default>
+      <summary>Last selected monitor mode</summary>
+      <description>The last selected mode: primaryOnly, secondaryOnly, dualExtend_mon, dualExtend_tv, dualMirror</description>
+    </key>
+  </schema>
+</schemalist>

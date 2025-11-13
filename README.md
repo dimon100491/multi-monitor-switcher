@@ -1,6 +1,6 @@
-<img width="1920" height="1080" alt="Screenshot From 2025-11-13 17-45-05" src="https://github.com/user-attachments/assets/ba1bcf1f-264c-4259-b899-f6910db3c17c" />
-<img width="407" height="573" alt="Screenshot From 2025-11-13 17-45-27" src="https://github.com/user-attachments/assets/ae4f9012-0949-4c01-9d0d-f070124aa163" />
-<img width="673" height="1059" alt="Screenshot From 2025-11-13 17-45-45" src="https://github.com/user-attachments/assets/b7062c48-b084-4f67-beed-3f451acbb08e" />
+<div align="center"><img width="1920" height="1080" alt="Screenshot From 2025-11-13 17-45-05" src="https://github.com/user-attachments/assets/ba1bcf1f-264c-4259-b899-f6910db3c17c" /></div>
+<div align="center"><img width="407" height="573" alt="Screenshot From 2025-11-13 17-45-27" src="https://github.com/user-attachments/assets/ae4f9012-0949-4c01-9d0d-f070124aa163" /></div>
+<div align="center"><img width="673" height="1059" alt="Screenshot From 2025-11-13 17-45-45" src="https://github.com/user-attachments/assets/b7062c48-b084-4f67-beed-3f451acbb08e" /></div>
 
 # Multi Monitor Switcher
 GNOME Shell Extension for switching between monitor configurations (primary, mirror, extension) via `gdctl`.

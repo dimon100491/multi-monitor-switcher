@@ -7,9 +7,9 @@ GNOME Shell Extension for switching between monitor configurations (primary, mir
 
 ## Functions
 - Switch between:
-- One monitor
+  - One monitor
   - Two monitors (main left/right)
-- Mirror
+  - Mirror
 - Support for scaling
 - Support for different update modes
 - Support for Russian and English languages
